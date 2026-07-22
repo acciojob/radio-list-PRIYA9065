@@ -1,11 +1,12 @@
 /*  your css code here. If applicable */
+
 .radio-group {
-	display: flex;
+    display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
     font-family: sans-serif;
 }
 
-.radio-item:nth-child(even) {
-     color: rgb(255, 0, 0);
+.radio-option:nth-child(even) {
+	color : red;
 }
