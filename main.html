@@ -8,20 +8,38 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form class = "radio_btn">
-		<input type="radio" class="1" name = "options">
-		<label>Option 1</label><br>
-		<input type="radio" class="input" name = "options" disabled>
-		<label style = "color : rgb(255, 0, 0)">Option 2</label><br>
-		<input type="radio" class="3" name = "options" checked>
-		<label >Option 3</label><br>
-		<input type="radio" class="input" name = "options">
-		<label style="color : rgb(255, 0, 0)">Option 4</label><br>
-		<input type="radio" class="5" name = "options">
-		<label>Option 5</label><br>
-		<input type="radio" class="input" name = "options">
-		<label style="color : rgb(255, 0, 0)">Option 6</label>
-	</form>
+	<div class="radio-group">
+		
+        <label class="radio-item">
+            <input type="radio" name="options" value="1">
+            Option 1
+        </label>
+
+        <label class="radio-item">
+            <input type="radio" name="options" value="2" disabled>
+            Option 2
+        </label>
+
+        <label class="radio-item">
+            <input type="radio" name="options" value="3" checked>
+            Option 3
+        </label>
+
+        <label class="radio-item">
+            <input type="radio" name="options" value="4">
+            Option 4
+        </label>
+
+        <label class="radio-item">
+            <input type="radio" name="options" value="5">
+            Option 5
+        </label>
+
+        <label class="radio-item">
+            <input type="radio" name="options" value="6">
+            Option 6
+        </label>
+    </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
