@@ -1,12 +1,17 @@
 /*  your css code here. If applicable */
 
-.radio-group {
-    display: flex;
+/* .radio-container {
+	display: flex;
     flex-direction: column;
-    gap: 8px;
-    font-family: sans-serif;
-}
+    gap: 10px;
+} */
+    
+/* .radio-item {
+    /* display: flex; */
+    /* align-items: center; */
+    /* gap: 8px; */
+} */
 
-.input:nth-child(even) {
+/* .radio-container:nth-child(even) {
       color: rgb(255, 0, 0);
-    }
+    } */
