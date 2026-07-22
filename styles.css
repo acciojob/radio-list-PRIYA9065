@@ -7,6 +7,6 @@
     font-family: sans-serif;
 }
 
-.radio-option:nth-child(even) {
-	color : red;
-}
+.input:nth-child(even) {
+      color: rgb(255, 0, 0);
+    }
